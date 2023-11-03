@@ -8,6 +8,9 @@ import { DadoComponent } from './dado/dado.component';
   declarations: [
     DadoComponent
   ],
+  exports: [
+    DadoComponent
+  ],
   imports: [
     CommonModule
   ]
